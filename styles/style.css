@@ -1,16 +1,18 @@
 /* common shared styles */
-body{
-    font-family: 'Lato',sans-serif;
+body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* nav related styles */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 
 }
+
 .nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
@@ -18,10 +20,12 @@ nav{
 
 
 }
-.text-primary{
-    color:#FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -32,26 +36,82 @@ nav{
 
 
 }
-nav>ul{
-    display:flex;
-    align-items: center;
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
-}
-.header{
-    background-color: #FFF8F3;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-.banner .profile-pic{
-    width: 500px;;
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    ;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--Dark-02, #474747);
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--Dark-01, #181818);
+    margin-top: 5px;
+    /* margin bottom: 20px; */
+}
+
+/* .banner-description{
+    margin-top: 0px;
+} */
+
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 130px 230px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* 166.667% */
 }
