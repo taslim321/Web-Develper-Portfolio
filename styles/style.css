@@ -93,6 +93,10 @@ nav a {
 /* .banner-description{
     margin-top: 0px;
 } */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 .about {
     background-color: #FFF8F3;
@@ -114,4 +118,11 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     /* 166.667% */
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
